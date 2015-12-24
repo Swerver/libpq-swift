@@ -1,4 +1,4 @@
-module libpq [system]
+module libpq [system] {
 	header "/usr/local/include/libpq-fe.h"
 	link "pq"
 	export *
